@@ -6,8 +6,9 @@ import RegisterTask from '../screens/RegisterTask'
 
 import { Ionicons } from '@expo/vector-icons'
 
+const Tab = createBottomTabNavigator()
+
 const TabsTasks: React.FC = () => {
-  const Tab = createBottomTabNavigator()
 
   return (
     <Tab.Navigator 

@@ -4,8 +4,9 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 import TabsTasks from '../navigation/TabsTasks'
 
+const Stack = createStackNavigator()
+
 const Navigation: React.FC = () => {
-  const Stack = createStackNavigator()
   
   return (
     <NavigationContainer>
